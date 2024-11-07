@@ -1,0 +1,21 @@
+body{
+    background-image: url('bcg_img.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    font-weight: bold; /* Semi-transparent background for better readability */
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+/* Navbar logo styling */
+.navbar-brand img {
+    height: 30px; /* Adjust to make the logo smaller */
+    width: auto;  /* Maintains aspect ratio */
+    max-width: 30px; /* Ensure it doesn't get too wide */
+    margin-right: 8px; /* Space between logo and text */
+}
