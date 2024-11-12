@@ -26,6 +26,7 @@ body{
 }
 
 .description h6{
+    color: #f8f1e1;
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -55,7 +56,7 @@ body{
 
 .nav-link:hover{
     text-decoration: underline;
-    color: black;
+    color: #f5c06a;
 }
 
 .order-now-btn{
@@ -72,6 +73,8 @@ body{
     border: none;
     border-radius: 15px;
     overflow: hidden;
+    width: 90%;
+    height: 90%;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -117,22 +120,37 @@ body{
 }
 
 .add-to-cart-btn {
-    background-color: #ff6347;
-    color: white;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    color: white; /* White text for contrast */
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 .add-to-cart-btn:hover {
-    background-color: #e5533d;
-    transform: scale(1.05);
+    background: linear-gradient(135deg, #ff6f61, #fd906b); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slight scaling for a pop effect */
 }
 
 .add-to-cart-btn:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.4);
+    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.4); /* Focus outline shadow */
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
